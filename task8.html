@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandotory</h2>
+    <form>
+        <label for="Full name">Full name*:</label><br>
+        <input type="text" placeholder="FirstName LastName" required><br>
+        <label for="Email address">Email address*:</label><br>
+        <input type="email" placeholder="EMAIL_ADDRESS" required><br>
+        <label for="Package">Select Tour Package</label><br>
+        <input list="Package" required>
+        <datalist id="Package">
+            <option value="Goa">
+        </datalist><br>
+        <label for="">Arrival date*: <br>
+            <input type="date" required><br>
+        </label>
+        <label for="">number of persons*: <br>
+            <input type="text" placeholder="UNKNOWN_TYPE" required><br>
+        </label>
+        <label for="">What would you want to avail?*<br>
+            <input type="checkbox" name="Boarding" id="">Boarding <br>
+            <input type="checkbox" name="Fooding" id="">Fooding<br>
+            <input type="checkbox" name="Sight seeing" id="">Sight seeing<br>
+        </label>
+        <label for="">Discout Coupon code: <br>
+            <input type="text" placeholder="UNKNOWN_TYPE"> <br>
+        </label>
+        <label for="">Terms and conditions* <br>
+            <input type="radio" name="I agree" id="">I agree
+            <input type="radio" name="I disagree" id="">I disagree <br><br>
+        </label><br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
